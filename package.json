@@ -1,0 +1,33 @@
+{
+  "name": "bachatbot",
+  "version": "1.0.0",
+  "description": "Bot yang berfungsi sebagai sarana untuk  bersosialisasi di media sosial telegram dengan menggunakan AI dari simsimi.",
+  "main": "index.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuadproduction/bachatBot.git"
+  },
+  "keywords": [
+    "bachat",
+    "skuad",
+    "skuad",
+    "komputer",
+    "skuad",
+    "production"
+  ],
+  "author": "Dian Adi Nugroho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skuadproduction/bachatBot/issues"
+  },
+  "homepage": "https://github.com/skuadproduction/bachatBot#readme"
+}
