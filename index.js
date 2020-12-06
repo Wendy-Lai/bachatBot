@@ -48,15 +48,13 @@ bot.action('indonesia', (ctx) => {
     ctx.telegram.sendMessage(ctx.chat.id, 'Selamat Datang! di chat bot Kampus Universitas AMIKOM Yogyakarta 🥰 \n\n Silahkan pilih menu yang sudah di sediakan dibawah', {
         reply_markup: {
             inline_keyboard:[
+                //Baris Button-1
                 [
                     {text: "Bank Soal", callback_data: "bank_soal"},
                     {text: "Akreditasi", callback_data: "akreditasi"},
                     {text: "Beasiswa", callback_data: "beasiswa"}
                 ],
-                [
-                    {text: "Bank Soal", callback_data: "bank_soal"},
-                    {text: "Akreditasi", callback_data: "akreditasi"}
-                ],
+                //Baris Button-2
                 [{text: "Help", callback_data: "help"}]
             ]
         }
